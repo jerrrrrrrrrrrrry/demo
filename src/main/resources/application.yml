@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: demo
+server:
+  port: 9999
+#配置web页面入口
+magic-api:
+  web: /magic/web
+#配置文件存储位置。当以classpath开头时，为只读模式
+  resource:
+    location: /data/magic-api
